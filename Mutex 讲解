@@ -1,0 +1,7 @@
+mutex互斥体用于线程间同步对象。
+
+适用场景：当前OS中同一时间只有一个线程在访问对象，其他线程要使用，则需要等待拥有互斥体的线程释放掉所有权后才可使用（waitone)
+
+mutex函数使用方法：
+https://msdn.microsoft.com/zh-cn/library/bwe34f1k.aspx
+
